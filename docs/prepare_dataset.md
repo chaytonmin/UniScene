@@ -4,7 +4,7 @@
 
 1. Organize your folder structure as below：
 
-   Downloading annotations.json from https://drive.google.com/drive/folders/1JObO75iTA2Ge5fa8D3BWC8R7yIG8VhrP?usp=share_link&pli=1
+   Downloading [annotations.json](https://drive.google.com/file/d/1c2rXvO1pel6goEeMqaB8FsXjbDGUPF1a/view?usp=drive_link)
 
 ```
 Occ-BEV
