@@ -29,7 +29,7 @@ If this work is helpful for your research, please consider citing the following 
 ```
 @article{occ-bev,
   title={Occ-BEV: Multi-Camera Unified Pre-training via 3D Scene Reconstruction},
-  author={Chen Min}
+  author={Chen Min, Xinli Xu, Dawei Zhao, Liang Xiao, Yiming Nie, and Bin Dai}
   journal={arXiv preprint},
   year={2023}
 }
