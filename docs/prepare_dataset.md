@@ -17,6 +17,7 @@ Occ-BEV
 │   ├── nuscenes/
 │   │   ├── maps/
 │   │   ├── samples/     
+│   │   ├── sweeps/     
 │   │   ├── v1.0-trainval/
 │   │   ├── gts/
 │   │   └── annotations.json
