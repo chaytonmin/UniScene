@@ -20,7 +20,7 @@ Multi-camera 3D perception has emerged as a prominent research field in autonomo
 | Backbone | Method | Pre-training | Lr Schd | NDS| mAP| Config |
 | :---: | :---: | :---: | :---: | :---:| :---: | :---: |
 | R101-DCN  | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | FCOS3D | 24ep | 51.7 | 41.6 | [config](BEVFormer/projects/configs/bevformer/bevformer_base.py)/[model](https://github.com/zhiqi-li/storage/releases/download/v1.0/bevformer_r101_dcn_24ep.pth) |
-| R101-DCN  | BEVFormer | Occ-BEV | 24ep | 53.4 |43.8 |[config](projects/configs/bevformer/occ_bev_sweep2.py)/[pre-trained model](xxx) |
+| R101-DCN  | BEVFormer | Occ-BEV | 24ep | 53.4 |43.8 |[config](projects/configs/bevformer/occ_bev_sweep2.py)/[pre-trained model](xxx)/[log](https://drive.google.com/file/d/1ignosErdLqiRdvSqEon7P7cHWCYGufQN/view?usp=drive_link)|
 
 
 # Bibtex
