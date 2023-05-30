@@ -1,7 +1,5 @@
-<div align="center">   
-
 # Occ-BEV: Multi-Camera Unified Pre-training via 3D Scene Reconstruction
-> [Paper in arXiv](http://arxiv.org/abs/xxx) 
+> -[Paper in arXiv](http://arxiv.org/abs/xxx) 
 
 
 # Abstract
