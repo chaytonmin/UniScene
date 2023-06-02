@@ -41,7 +41,7 @@ If this work is helpful for your research, please consider citing the following 
 Many thanks to these excellent open source projects:
 - [Occ3D](https://github.com/CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction) 
 
-- [occupancy-for-nuscenes](https://github.com/Megvii-BaseDetection/BEVDepth)
+- [occupancy-for-nuscenes](https://github.com/FANG-MING/occupancy-for-nuscenes)
 
 - [DETR3D](https://github.com/WangYueFt/detr3d) 
 
