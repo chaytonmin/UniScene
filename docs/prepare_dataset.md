@@ -24,6 +24,7 @@ Occ-BEV
 ```
 
 2. Generate the binary geometry occupancy labels to gts
+or download from [gts](https://drive.google.com/file/d/1S0lmvo2XwUJp1Iz8iy8nmOwYWHJ8nI9t/view)
 
 ```
 python tools/creat_binary_occ_labels.py --dataroot ./data/nuscenes/ --save_path ./data/nuscenes/ --num_sweeps 2
