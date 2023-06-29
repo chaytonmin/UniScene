@@ -236,7 +236,7 @@ total_epochs = 24
 evaluation = dict(interval=24, pipeline=test_pipeline)
 
 runner = dict(type='EpochBasedRunner', max_epochs=total_epochs)
-# load_from = 'ckpts/r101_dcn_fcos3d_pretrain.pth'
+load_from = 'ckpts/r101_dcn_fcos3d_pretrain.pth'
 log_config = dict(
     interval=50,
     hooks=[
