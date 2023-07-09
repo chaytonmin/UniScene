@@ -51,7 +51,8 @@ model = dict(
         norm_eval=True,
         style='caffe',
         dcn=dict(type='DCNv2', deform_groups=1, fallback_on_stride=False), # original DCNv2 will print log when perform load_state_dict
-        stage_with_dcn=(False, False, True, True)),
+        stage_with_dcn=(False, False, True, True)
+        init_cfg=dict(type='Pretrained', checkpoint='open-mmlab://detectron2/resnet101_caffe'),),
     img_neck=dict(
         type='FPN',
         in_channels=[512, 1024, 2048],
@@ -236,7 +237,7 @@ total_epochs = 24
 evaluation = dict(interval=24, pipeline=test_pipeline)
 
 runner = dict(type='EpochBasedRunner', max_epochs=total_epochs)
-load_from = 'ckpts/r101_dcn_fcos3d_pretrain.pth'
+#load_from = 'ckpts/r101_dcn_fcos3d_pretrain.pth'
 log_config = dict(
     interval=50,
     hooks=[
