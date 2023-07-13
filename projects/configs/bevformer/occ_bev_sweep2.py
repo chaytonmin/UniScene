@@ -51,7 +51,7 @@ model = dict(
         norm_eval=True,
         style='caffe',
         dcn=dict(type='DCNv2', deform_groups=1, fallback_on_stride=False), # original DCNv2 will print log when perform load_state_dict
-        stage_with_dcn=(False, False, True, True)
+        stage_with_dcn=(False, False, True, True),
         init_cfg=dict(type='Pretrained', checkpoint='open-mmlab://detectron2/resnet101_caffe'),),
     img_neck=dict(
         type='FPN',
