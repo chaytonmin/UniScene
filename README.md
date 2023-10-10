@@ -22,7 +22,7 @@ Multi-camera 3D perception has emerged as a prominent research field in autonomo
 | R101-DCN  | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | ImageNet | 24ep | 47.7 | 37.7 |  [config](BEVFormer/projects/configs/bevformer/bevformer_base.py)/[model] |
 | R101-DCN  | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | ImageNet + UniScene | 24ep | 50.0 | 39.7 |  [config](BEVFormer/projects/configs/bevformer/bevformer_base.py)/[model](https://drive.google.com/file/d/1G4Z2eNJMtMzuAl-43vXzytyZG7t-RBQk/view?usp=drive_link) |
 | R101-DCN  | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | FCOS3D | 24ep | 51.7 | 41.6 | [config](BEVFormer/projects/configs/bevformer/bevformer_base.py)/[model](https://github.com/zhiqi-li/storage/releases/download/v1.0/bevformer_r101_dcn_24ep.pth) |
-| R101-DCN  |  [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | FCOS3D + UniScene | 24ep | 53.4 |43.8 |[config](projects/configs/bevformer/occ_bev_sweep2.py)/[pre-trained model](https://drive.google.com/file/d/1tXylQhYLAH6c-gAJD0dUeZxwOPUD4rZX/view?usp=drive_link)/[log](https://drive.google.com/file/d/1ignosErdLqiRdvSqEon7P7cHWCYGufQN/view?usp=drive_link)/[fine-tune-bevformer](https://drive.google.com/file/d/1O3ZnwLOCRQnWcKAAVsJxI_76e0sR0QGW/view?usp=drive_link)|
+| R101-DCN  |  [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | FCOS3D + UniScene | 24ep | 53.4 |43.8 |[config](projects/configs/bevformer/occ_bev_sweep2.py)/[pre-trained model](https://drive.google.com/file/d/1tXylQhYLAH6c-gAJD0dUeZxwOPUD4rZX/view?usp=drive_link)/[log](https://drive.google.com/file/d/1DkaS2QD8tKHM59SJu8WGaz-ZsObzbeZ4/view?usp=drive_link)|
 
 
 # Bibtex
