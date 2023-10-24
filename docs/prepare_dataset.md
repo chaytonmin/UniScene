@@ -7,7 +7,7 @@
    Downloading [annotations.json](https://drive.google.com/file/d/1c2rXvO1pel6goEeMqaB8FsXjbDGUPF1a/view?usp=drive_link)
 
 ```
-Occ-BEV
+UniScene
 ├── projects/
 ├── tools/
 ├── ckpts/
