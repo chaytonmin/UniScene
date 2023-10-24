@@ -8,15 +8,15 @@ Follow https://github.com/fundamentalvision/BEVFormer/blob/master/docs/install.m
 
 ## Fine-tuning
 
-change Occ-BEV/BEVFormer/projects/configs/bevformer/bevformer_base.py Line 249: load_from = 'Occ-BEV/work_dirs/occ_bev_sweep2/epoch_24.pth' to the pre-trained model from Occ-BEV
+change UniScene/BEVFormer/projects/configs/bevformer/bevformer_base.py Line 249: load_from = 'UniScene/work_dirs/occ_bev_sweep2/epoch_24.pth' to the pre-trained model from UniScene
 
 ```
-cd Occ-BEV/BEVFormer
+cd UniScene/BEVFormer
 ./tools/dist_train.sh ./projects/configs/bevformer/bevformer_base.py 8
 ```
 ## Testing
 
 ```
-cd Occ-BEV/BEVFormer
+cd UniScene/BEVFormer
 ./tools/dist_test.sh ./projects/configs/bevformer/bevformer_base.py ./work_dirs/bevformer_base/epoch_24.pth 8
 ```
