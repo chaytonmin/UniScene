@@ -29,7 +29,7 @@ Multi-camera 3D perception has emerged as a prominent research field in autonomo
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 
 ```
-@article{occ-bev,
+@article{UniScene,
   title={Multi-Camera Unified Pre-training via 3D Scene Reconstruction},
   author={Chen Min, Liang Xiao, Dawei Zhao, Yiming Nie, and Bin Dai}
   journal={arXiv preprint},
