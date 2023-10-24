@@ -48,14 +48,14 @@ pip install timm
 ```
 
 
-**g. Clone Occ-BEV.**
+**g. Clone UniScene.**
 ```
-git clone https://github.com/chaytonmin/Occ-BEV.git
+git clone https://github.com/chaytonmin/UniScene.git
 ```
 
 **h. Prepare pretrained models.**
 ```shell
-cd Occ-BEV
+cd UniScene
 mkdir ckpts
 cd ckpts & wget https://github.com/zhiqi-li/storage/releases/download/v1.0/r101_dcn_fcos3d_pretrain.pth
 ```
