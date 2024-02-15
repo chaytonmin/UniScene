@@ -1,7 +1,7 @@
 # Multi-Camera Unified Pre-training via 3D Scene Reconstruction 
 (for DETR3D, BEVFormer, BEVDet, BEVDepth and Semantic Occupancy Prediction)
 
-> [Paper in arXiv](https://arxiv.org/abs/2305.18829) 
+> Repository for our RAL 2024 paper [Paper](https://ieeexplore.ieee.org/abstract/document/10423224) [arXiv](https://arxiv.org/abs/2305.18829) 
 
 # Abstract
 Multi-camera 3D perception has emerged as a prominent research field in autonomous driving, offering a viable and cost-effective alternative to LiDAR-based solutions. The existing multi-camera algorithms primarily rely on monocular 2D pre-training. However, the monocular 2D pre-training overlooks the spatial and temporal correlations among the multi-camera system. To address this limitation, we propose the first multi-camera unified pre-training framework, called UniScene, which involves initially reconstructing the 3D scene as the foundational stage and subsequently fine-tuning the model on downstream tasks. Specifically, we employ Occupancy as the general representation for the 3D scene, enabling the model to grasp geometric priors of the surrounding world through pre-training.
@@ -30,10 +30,11 @@ If this work is helpful for your research, please consider citing the following 
 
 ```
 @article{UniScene,
-  title={Multi-Camera Unified Pre-training via 3D Scene Reconstruction},
-  author={Chen Min, Liang Xiao, Dawei Zhao, Yiming Nie, and Bin Dai}
-  journal={arXiv preprint},
-  year={2023}
+  title={Multi-Camera Unified Pre-Training Via 3D Scene Reconstruction},
+  author={Min, Chen and Xiao, Liang and Zhao, Dawei and Nie, Yiming and Dai, Bin},
+  journal={IEEE Robotics and Automation Letters},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
